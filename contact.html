@@ -3,17 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lifestyle Vibes - About</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <title>Lifestyle Vibes</title>
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <script src="../js/script.js"></script>
 </head>
 
 <body class="bg-dark text-white">
-
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand ps-4" href="index.html">Lifestyle Vibes</a>
@@ -23,70 +20,62 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link active" href="contact.html">Contact</a>
           </li>
-          <li class="nav-item dropdown" id="pagesA">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Pages
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="index.html">Home</a></li>
               <li><a class="dropdown-item" href="about.html">About</a></li>
               <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="subscribe.html">Subscribe</a></li>
             </ul>
           </li>
         </ul>
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-button me-4">
-            <a class="btn btn-outline-light" id="subscribeButton" href="subscribe.html">Subscribe</a>
+            <a class="btn btn-outline-light" aria-current="page" href="subscribe.html">Subscribe</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <div class="container my-5">
-    <!-- Overview Section -->
-    <section id="overview" class="mb-5">
-      <h2 class="text-center mb-4">Overview</h2>
-      <p class="text-center">At Lifestyle Vibes, we believe in fostering a vibrant community where individuals can thrive, share experiences, and discover new passions. Our platform is dedicated to empowering people through lifestyle content that inspires and educates.</p>
-    </section>
-
-    <!-- Team Section -->
-    <section id="team" class="mb-5">
-      <h2 class="text-center mb-4">Meet Our Team</h2>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-2">
-          <h5>Enardo Stefanus</h5>
-          <p>Founder & CEO</p>
+  <section class="min-height-section">
+    <div class="container py-5">
+      <div class="row align-items-center justify-content-center mt-5">
+        <div class="col-12 col-lg-6 pe-lg-6 mb-4 mb-lg-0">
+          <h2 class="fade-in delay-1 display-5 fw-bold">Welcome to Lifestyle Hub</h2>
+          <h3 class="fade-in delay-2">Explore trends, wellness, and living your best life</h3>
+          <p class="lead fade-in delay-3">
+            Lifestyle is all about finding balance, embracing health, and living
+            in the moment. Whether you're into fitness, mindfulness, or just
+            looking to elevate your daily routines, you've come to the right
+            place.
+          </p>
+          <button class="btn btn-shop-now btn-outline-light">Shop Now</button>
         </div>
-        <div class="col-md-4 text-center">
-          <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-2">
-          <h5>Alvin Kurniawan</h5>
-          <p>Content Manager</p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-2">
-          <h5>Christopher Wijaya</h5>
-          <p>Marketing Strategist</p>
+        <div class="col-12 col-lg-6 ps-lg-5">
+          <img
+            src="https://images.unsplash.com/photo-1507919909716-c8262e491cde?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="img-fluid rounded"
+            alt="Wellness lifestyle image from Unsplash"
+          />
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <img src="assets/wave1.png" id="bottom-img">
 
-    <!-- Mission & Vision Section -->
-    <section id="mission-vision">
-      <h2 class="text-center mb-4">Our Mission & Vision</h2>
-      <p class="text-center">Our mission is to provide a platform that promotes positivity and growth in every individual's lifestyle journey. We envision a world where everyone has access to resources that enable them to live their best lives.</p>
-    </section>
-  </div>
-
+  
   <footer class="text-center py-4">
     <div class="container">
       <small>
