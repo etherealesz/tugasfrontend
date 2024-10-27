@@ -20,3 +20,17 @@ document.addEventListener("DOMContentLoaded", function() {
       updateCount();
     });
   });
+
+  document.getElementById('teamSearch').addEventListener('input', function() {
+    let searchValue = this.value.toLowerCase();
+    let teamCards = document.querySelectorAll('#teamMembers .team-card');
+    
+    teamCards.forEach(card => {
+      let name = card.getAttribute('data-name').toLowerCase();
+      if (name.includes(searchValue)) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });

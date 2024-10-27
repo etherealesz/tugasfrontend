@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link active" href="contact.html">Contact</a>
           </li>
           <li class="nav-item dropdown" id="pagesA">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Pages
             </a>
             <ul class="dropdown-menu">
@@ -49,7 +49,6 @@
       </div>
     </div>
   </nav>
-
   <section class="hero-section mt-5">
     <div class="container">
         <div class="row align-items-center">
@@ -134,53 +133,49 @@
     <h2>Our Team</h2>
     <p class="text-info">Delivering excellence through collaboration and expertise</p>
     
-    <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="team-card text-center">
-                <img src="assets/alvin.jpg" alt="Member">
-                <h5>Enardo Stefanus</h5>
-                <p>Guiding the team with innovative strategies and insights</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                </div>
+    <div class="d-flex justify-content-center my-4">
+      <input type="text" class="form-control w-50" id="teamSearch" placeholder="Search team members...">
+    </div>
+
+    <div class="row justify-content-center" id="teamMembers">
+        <div class="col-lg-3 col-md-4 col-sm-6 my-3 team-card text-center" data-name="Enardo Stefanus">
+            <img src="assets/alvin.jpg" alt="Member">
+            <h5>Enardo Stefanus</h5>
+            <p>Guiding the team with innovative strategies and insights</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="team-card text-center">
-                <img src="assets/alvin.jpg" alt="Member">
-                <h5>Alvin Kurniawan</h5>
-                <p>Driving product development and ensuring quality</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-3 team-card text-center" data-name="Alvin Kurniawan">
+            <img src="assets/alvin.jpg" alt="Member">
+            <h5>Alvin Kurniawan</h5>
+            <p>Driving product development and ensuring quality</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="team-card text-center">
-                <img src="assets/alvin.jpg" alt="Member">
-                <h5>Christopher Wijaya</h5>
-                <p>Crafting user-centered designs with precision</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-3 team-card text-center" data-name="Christopher Wijaya">
+            <img src="assets/alvin.jpg" alt="Member">
+            <h5>Christopher Wijaya</h5>
+            <p>Crafting user-centered designs with precision</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="team-card text-center">
-                <img src="assets/alvin.jpg" alt="Member">
-                <h5>Ilham Samsudin</h5>
-                <p>Enhancing our brand visibility and outreach</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 my-3 team-card text-center" data-name="Ilham Samsudin">
+            <img src="assets/alvin.jpg" alt="Member">
+            <h5>Ilham Samsudin</h5>
+            <p>Enhancing our brand visibility and outreach</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
             </div>
         </div>
     </div>

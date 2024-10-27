@@ -159,3 +159,30 @@ footer {
         margin-top: 30px;
     }
 }
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav #pagesA {
+        display: none;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    #subscribeButton {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .navbar-nav > .nav-item:hover > a {
+        color: white;
+    }
+    .navbar .navbar-nav .nav-item a {
+        transform: none;
+    }
+}
