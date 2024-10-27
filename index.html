@@ -44,7 +44,7 @@
         </ul>
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-button me-4">
-            <a class="btn btn-outline-light" id="subscribeButton" aria-current="page" href="subscribe.html">Subscribe</a>
+            <button class="btn btn-shop-now btn-outline-light" data-bs-toggle="modal" data-bs-target="#subscriptionModal">Subscribe</button>
           </li>
         </ul>
       </div>
@@ -60,7 +60,7 @@
           <p class="lead fade-in delay-3">
             Lifestyle is all about finding balance, embracing health, and living in the moment. Whether you're into fitness, mindfulness, or just looking to elevate your daily routines, you've come to the right place.
           </p>
-          <button class="btn btn-shop-now btn-outline-light">Shop Now</button>
+          <button class="btn btn-shop-now btn-outline-light" data-bs-toggle="modal" data-bs-target="#subscriptionModal">Subscribe</button>
         </div>
         
         <div class="col-12 col-lg-6 ps-lg-5">
@@ -99,35 +99,30 @@
 
   <section class="bg-white text-dark" id="services">
     <div class="container text-center">
-      <h1 class="title">EXPLORE FASHION & TREND</h1>
-      <div class="row text-center">
-        <div class="col-md-4 services">
-          <img src="assets/service1.png" class="service-img">
-          <h4>Growth Marketing</h4>
-          <p>Subscribe Easy Tutorials YouTube Channel to watch more videos on website
-            development, Digital Marketing, WordPress and Graphic Designing.
-          </p>
+        <h1 class="title">EXPLORE LIFESTYLE & WELLNESS</h1>
+        <div class="row text-center">
+            <div class="col-md-4 services">
+                <img src="assets/running.png" class="service-img">
+                <h4>Healthy Living</h4>
+                <p>Discover tips and resources for maintaining a balanced diet and lifestyle. 
+                Join our community for wellness guides and healthy recipes.</p>
+            </div>
+            <div class="col-md-4 services">
+                <img src="assets/meditat.png" class="service-img">
+                <h4>Mindfulness Practices</h4>
+                <p>Learn about mindfulness and meditation techniques to enhance your well-being and reduce stress.</p>
+            </div>
+            <div class="col-md-4 services">
+                <img src="assets/fitness.png" class="service-img">
+                <h4>Fitness Inspiration</h4>
+                <p>Stay active with our fitness tips and routines designed for every level, helping you to achieve your wellness goals.</p>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#subscriptionModal">Subscribe Now</button>
+            </div>
         </div>
-        <div class="col-md-4 services">
-          <img src="assets/service2.png" class="service-img">
-          <h4>Online Branding</h4>
-          <p>Subscribe Easy Tutorials YouTube Channel to watch more videos on website
-            development, Digital Marketing, WordPress and Graphic Designing.
-          </p>
-        </div>
-        <div class="col-md-4 services">
-          <img src="assets/service3.png" class="service-img">
-          <h4>Animated Ads</h4>
-          <p>Subscribe Easy Tutorials YouTube Channel to watch more videos on website
-            development, Digital Marketing, WordPress and Graphic Designing.
-          </p>
-        </div>
-        <div class="d-flex justify-content-center mt-3">
-          <button type="button" class="btn btn-primary">Shop Now</button>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
   <img src="assets/wave2.png" id="bottom-img">
     
   <section class="py-5" id="socials-section">
@@ -289,6 +284,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
   crossorigin="anonymous"></script>

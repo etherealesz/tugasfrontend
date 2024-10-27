@@ -1,0 +1,115 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #000;
+    border-bottom: 2px solid #444;
+}
+
+.navbar .navbar-nav .nav-item a {
+    padding: 15px;
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .navbar-nav > .nav-item:hover > a {
+    color: #007bff;
+}
+
+.navbar .navbar-nav .dropdown-menu {
+    background-color: #333;
+}
+
+.navbar .navbar-nav .dropdown-menu a {
+    color: white;
+}
+
+.navbar .navbar-nav .dropdown-menu a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+#bottom-img {
+    width: 100%;
+}
+
+.team-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.team-card {
+    background-color: #2a2d32;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+}
+.team-card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+}
+.team-card h5 {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.team-card p {
+    color: #b0b3b8;
+}
+.team-card .social-icons a {
+    color: #b0b3b8;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+.team-card .social-icons a:hover {
+    color: #1d9bf0;
+}
+
+footer {
+    background-color: #111;
+    border-top: 2px solid #444;
+    color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav #pagesA {
+        display: none;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    #subscribeButton {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .navbar-nav > .nav-item:hover > a {
+        color: white;
+    }
+    .navbar .navbar-nav .nav-item a {
+        transform: none;
+    }
+}
