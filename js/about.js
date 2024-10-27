@@ -6,15 +6,13 @@ document.addEventListener("DOMContentLoaded", function() {
         const target = +counter.getAttribute('data-target');
         const count = +counter.innerText;
         
-        // Hitung increment
-        const increment = target / 500; // Kecepatan animasi
+        const increment = target / 500;
   
         if (count < target) {
-          // Perbarui angka
           counter.innerText = Math.ceil(count + increment);
           setTimeout(updateCount, 1);
         } else {
-          counter.innerText = target; // Set angka ke target
+          counter.innerText = target;
         }
       }
       updateCount();

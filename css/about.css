@@ -39,13 +39,15 @@ body {
     padding: 50px 0;
     text-align: center;
 }
+
 .team-card {
     background-color: #2a2d32;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.2);
     max-width: 100%;
 }
+
 .team-card img {
     border-radius: 50%;
     width: 80px;
@@ -53,19 +55,23 @@ body {
     object-fit: cover;
     border: 3px solid #ffffff;
 }
+
 .team-card h5 {
     margin-top: 10px;
     font-weight: bold;
     color: #ffffff;
 }
+
 .team-card p {
     color: #b0b3b8;
 }
+
 .team-card .social-icons a {
     color: #b0b3b8;
     margin: 0 5px;
     transition: color 0.3s;
 }
+
 .team-card .social-icons a:hover {
     color: #1d9bf0;
 }
