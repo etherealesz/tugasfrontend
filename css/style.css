@@ -261,4 +261,8 @@ footer a:hover {
     .navbar .navbar-nav .nav-item a {
         transform: none;
     }
+
+    #lifestyleCarousel .carousel-indicators {
+        list-style-type: disc;
+    }
 }
